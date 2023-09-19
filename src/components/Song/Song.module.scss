@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  .details {
+    display: flex;
+    flex-direction: row;
+    .img {
+      height: 5rem;
+      margin-inline-end: 2rem;
+    }
+    .mobImg {
+      height: 4rem;
+      margin-inline-end: 2rem;
+    }
+    .desc {
+      display: flex;
+      flex-direction: column;
+      font-family: "Inter", sans-serif;
+      line-height: 0px;
+      color: white;
+      text-align: left;
+      .name {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .mobName {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .detail {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      .mobDetail {
+        font-size: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+  .options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .icon {
+      cursor: pointer;
+      height: 2rem;
+      margin-inline-start: 3rem;
+      margin-inline-end: 1.5rem;
+    }
+  }
+  .mobIcon {
+    cursor: pointer;
+    height: 1.5rem;
+    margin-inline-start: 0.25rem;
+    margin-inline-end: 0.25rem;
+  }
+}

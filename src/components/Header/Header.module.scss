@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+.container {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 9.9%,
+      rgba(0, 0, 0, 0.155) 25.52%,
+      rgba(0, 0, 0, 0.27) 46.35%,
+      rgba(0, 0, 0, 0.34) 67.19%,
+      rgba(0, 0, 0, 0.447586) 85.94%,
+      rgba(0, 0, 0, 0.5) 97.4%
+    ),
+    linear-gradient(0deg, rgba(94, 13, 199, 0.66), rgba(94, 13, 199, 0.66));
+  display: flex;
+  flex-direction: row;
+
+  .leftSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    .arrow {
+      height: 2.5rem;
+      margin-top: 1rem;
+      margin-inline: 2rem;
+    }
+    .image {
+      border-radius: 25px;
+      height: 15rem;
+      margin-block: 2rem;
+      margin-inline-start: 3rem;
+      margin-inline-end: 6rem;
+    }
+  }
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    line-height: 0px;
+    align-items: self-start;
+
+    .name {
+      font-family: "Inter", sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+    .listeners {
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 10%;
+  .mobArrow {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .mobImage {
+    width: 100%;
+    height: 100%;
+  }
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: left;
+  } 
+}

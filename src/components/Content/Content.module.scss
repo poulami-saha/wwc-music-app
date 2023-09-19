@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.container {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 1, 1, 0.235865) 39.58%,
+      rgba(7, 1, 1, 0.32897) 55.21%,
+      rgba(9, 1, 1, 0.40966) 68.75%,
+      rgba(0, 0, 0, 0.552) 82.81%,
+      rgba(0, 0, 0, 0.6) 97.4%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    linear-gradient(0deg, rgba(94, 13, 199, 0.66), rgba(94, 13, 199, 0.66));
+
+  padding-top: 2rem;
+  padding-inline: 7rem;
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .menu {
+      font-family: "Inter", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 0px;
+      color: white;
+    }
+    .play {
+      height: 3rem;
+      margin-inline: 2rem;
+      cursor: pointer;
+    }
+    .follow {
+      margin-inline: 3.5rem;
+      height: 2.5rem;
+      cursor: pointer;
+    }
+    .shuffle {
+      height: 2.5rem;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.mobileContainer {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 1, 1, 0.235865) 39.58%,
+      rgba(7, 1, 1, 0.32897) 55.21%,
+      rgba(9, 1, 1, 0.40966) 68.75%,
+      rgba(0, 0, 0, 0.552) 82.81%,
+      rgba(0, 0, 0, 0.6) 97.4%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    linear-gradient(0deg, rgba(94, 13, 199, 0.66), rgba(94, 13, 199, 0.66));
+
+  padding-top: 2rem;
+  padding-inline: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  .mobileHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mobileFollow {
+    height: 2rem;
+  }
+  .mobileShuffle {
+    height: 2rem;
+    margin-inline: 1rem;
+  }
+  .mobilePlay {
+    height: 2rem;
+  }
+  .mobilePopular {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0px;
+    color: white;
+  }
+}
